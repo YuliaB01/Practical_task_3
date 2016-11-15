@@ -1,0 +1,88 @@
+* {
+   font-family: sans-serif;
+}
+
+.main_heading,
+.second_heading {
+   font-family: fantasy;
+   font-size: 40px;
+}
+
+.second_heading {
+   font-variant: small-caps;
+}
+
+.styled_table tr {
+   cursor: pointer;
+   font-size: 20px;
+}
+
+.head_row {
+   background-color: #FFC6C6;
+}
+
+td:first-letter {
+   font-size: 1.2em;
+   font-weight: bold;
+   color:#CC3467;
+}
+
+.body_row:hover td:first-child {
+   background-color: #FF33D6;
+}
+
+.body_row:hover {
+   background-color: #FFFECB;
+}
+
+.list_1 {
+   list-style: none;
+}
+
+.list_1 a {
+   text-decoration: none;
+   font-size: 18px;
+   font-family: "Segoe UI", sans-serif;
+   font-weight: lighter;
+   color: #5A167D;
+}
+ .list_1 a:hover {
+   color: #A830FF;
+}
+
+.list_2 {
+   list-style: none;
+}
+
+.list_image {
+   max-width: 100px;
+}
+
+.list_image:hover {
+   max-width: 200px;
+   cursor: pointer;
+}
+
+.subheading {
+   background-color: #2A2AAB;
+   color: white;
+   font-size: 14px;
+   font-family: "Segoe UI", sans-serif;
+}
+
+.paragraph {
+   font-size: 20px;
+   font-family: "Segoe UI", sans-serif;
+   font-weight: lighter;
+}
+
+.paragraph:first-line {
+   font-style: italic;
+   color: #893F3F;
+}
+
+.paragraph:first-letter {
+   font-size: 2em;
+   font-weight: normal;
+   color: #E7AE40;
+}
